@@ -1,4 +1,4 @@
-"""# SCREEN RECORDER PROJECT
+# SCREEN RECORDER PROJECT
 import datetime
 from PIL import ImageGrab                 #(here i have used pillow lib of python)
 import numpy as np                        #(here i have used numpy lib of python)
@@ -32,4 +32,3 @@ while True:                                                  #(While loop is use
     captured_video.write(img_final)                          #(this is for captured video)
     if cv2.waitKey(10) == ord('q'):                          #(this is for stoping the recording)
         break
-"""
